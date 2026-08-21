@@ -1,0 +1,14 @@
+# Python dependencies actually imported by the scripts in generate/ and check/.
+# No versions are pinned — none were recorded from the original environment.
+rdkit
+pandas
+pubchempy
+ollama
+tqdm
+
+# NOT pip packages — required separately as system binaries, called via
+# os.system()/subprocess in convert.py and docking_paralel.py:
+#   - Open Babel (obabel) - https://openbabel.org/
+#   - AutoDock Vina (vina) - https://vina.scripps.edu/
+# Also requires a running local Ollama server (https://ollama.com/) with the
+# "qwen2.5:3b" model pulled, for generate/generate.py.

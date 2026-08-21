@@ -1,0 +1,7 @@
+# Example output only — 3 rows from a short manual test run of generate.py.
+# This is NOT the full generated dataset (no such dataset is included in this repo).
+SMILES,Weight,LogP,SA
+OC[C@H](CCC(SC)=O)[C@@H]1CCCCC1,230.37,2.85,3.34
+[C@H](Cl)[C@@H]1CCC[C@H](CC[C@H]1O[O-])C(O)=O,234.68,1.33,4.34
+[C@H](Cl)[C@@H]([C@@H](Oc1ccccc1)OC)CO,229.68,2.05,3.52
+[C@@H](F)c1ccccc1C(=O)Nc2ncn(c2)C3=CC=CS(C)=S3,348.45,2.92,4.5

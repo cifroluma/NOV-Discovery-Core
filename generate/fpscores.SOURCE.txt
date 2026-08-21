@@ -1,0 +1,6 @@
+fpscores.pkl.gz — THIRD-PARTY DATA, not part of this project's own work.
+
+Precomputed fragment scores for the synthetic accessibility (SA) score,
+distributed with RDKit's contrib/SA_Score module.
+(c) Novartis Institutes for BioMedical Research Inc., 2013.
+Used unmodified by generate/sascorer.py.
